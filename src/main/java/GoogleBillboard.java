@@ -4,8 +4,10 @@ public void setup()
   for(int i = 2; i<e.length();i++){
   String digits = e.substring(i,i+11);
   double dNum = Double.parseDouble(digits);
-  if(isPrime(dNum)==true){i = e.length();}
-  System.out.println(isPrime(dNum));
+  if(isPrime(dNum)==true){
+    i = e.length();
+    System.out.println(isPrime(dNum));
+  }
   }
 }  
 public static boolean isPrime(double dNum)  

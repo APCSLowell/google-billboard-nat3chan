@@ -9,7 +9,8 @@ public void setup()
  //   t++;
  // }
 //    if(t==4){
-      System.out.println(dnum);
+      System.out.println(dNum);
+      i = e.length();
   }
 }
 }

@@ -9,7 +9,7 @@ public void setup()
  //   t++;
  // }
 //    if(t==4){
-      System.out.println(e.substring(i,i+10));
+      System.out.println(dnum);
   }
 }
 public static boolean isPrime(double dNum)  

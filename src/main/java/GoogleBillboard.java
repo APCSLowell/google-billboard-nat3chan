@@ -6,9 +6,9 @@ public void setup()
   String digits = e.substring(i,i+10);
   double dNum = Double.parseDouble(digits);
   if(isPrime(dNum)==true){
-    t++;
-  }
-    if(t==4){
+ //   t++;
+ // }
+//    if(t==4){
       System.out.println(e.substring(i,i+10));
   }
 }

@@ -11,7 +11,7 @@ public class GoogleBillboard {
 }
 	}
 	//Finish this function
-	public static boolean isPrime(double dNum)  
+public static boolean isPrime(double dNum)  
 {   
  boolean b = false;
    if(dNum < 4&&dNum>1){b = true;}
@@ -24,3 +24,4 @@ public class GoogleBillboard {
   }
   return b;
 } 
+}

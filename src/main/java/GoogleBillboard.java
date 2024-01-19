@@ -5,8 +5,8 @@ public void setup()
   String digits = e.substring(i,i+11);
   double dNum = Double.parseDouble(digits);
   if(isPrime(dNum)==true){
+    System.out.println(e.substring(i,i+11));
     i = e.length();
-    System.out.println(isPrime(dNum));
   }
   }
 }  

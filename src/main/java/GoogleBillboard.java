@@ -6,7 +6,6 @@ public void setup()
   double dNum = Double.parseDouble(digits);
   if(isPrime(dNum)==true){
     System.out.println(e.substring(i,i+10)+".com");
-    i = e.length();
   }
   }
 }  

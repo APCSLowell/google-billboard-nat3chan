@@ -3,7 +3,7 @@ public void setup()
 {            
   int t = 0;
   for(int i = 2; i<e.length();i++){
-  String digits = e.substring(i,i+11);
+  String digits = e.substring(i,i+10);
   double dNum = Double.parseDouble(digits);
   if(isPrime(dNum)==true){
     t++;

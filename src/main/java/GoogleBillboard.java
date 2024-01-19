@@ -12,6 +12,7 @@ public void setup()
       System.out.println(dnum);
   }
 }
+}
 public static boolean isPrime(double dNum)  
 {   
  boolean b = false;

@@ -5,17 +5,17 @@ public class GoogleBillboard {
   String digits = e.substring(i,i+11);
   double dNum = Double.parseDouble(digits);
   if(isPrime(dNum)==true){
-	  i = e.length();
       System.out.println(digits);
+	    i = e.length();
   }
 }
 }
 public static boolean isPrime(double dNum)  
 {
-  if(num < 2){
+  if(dNum < 2){
     return false;}
-  for(int i = 2; i <= Math.sqrt(num); i++){
-    if(num % i == 0){
+  for(int i = 2; i <= Math.sqrt(dNum); i++){
+    if(dNum % i == 0){
       return false;}
   }
   return true;

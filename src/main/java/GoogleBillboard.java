@@ -4,10 +4,10 @@ public class GoogleBillboard {
      for(int i = 2; i<e.length()-10;i++){
   String digits = e.substring(i,i+11);
   double dNum = Double.parseDouble(digits);
- // if(isPrime(dNum)==true){
-      System.out.println("7427466391");
+  if(isPrime(dNum)==true){
+      System.out.println(digits);
 	    i = e.length();
- // }
+  }
      }
 }
 public static boolean isPrime(double dNum)  

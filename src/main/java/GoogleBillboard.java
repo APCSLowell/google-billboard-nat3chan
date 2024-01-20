@@ -14,7 +14,6 @@ public static boolean isPrime(double dNum)
  boolean b = false;
    if(dNum < 4&&dNum>1){b = true;}
   for(int i = 2; i <= Math.sqrt(dNum); i++){
-   
    if(dNum%i==0){
     b = false;
   }

@@ -8,7 +8,6 @@ public class GoogleBillboard {
       args[i] = digits;
   }
 }
-		System.out.println(args);
 }
 public static boolean isPrime(double dNum)  
 {
